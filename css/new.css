@@ -1,0 +1,24 @@
+.side-bar {
+    width: 200px;
+    position: absolute;
+    right: 25px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: gray;
+    height: 80%;
+}
+
+.container {
+    width: calc(100% - 75px - 200px);
+    position: absolute;
+    left: 25px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: gray;
+    height: 80%;
+    text-align: center;
+}
+
+.container canvas {
+    cursor: pointer;
+}
